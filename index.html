@@ -451,4 +451,6 @@ const navLinks = Array.from(document.querySelectorAll('nav a.nav-link'));
 function updateActive() {
   const scrollPos = window.scrollY + 150;
   let current = spySections[0].id;
-  spySections.forEach(function(sec) { if (scrollPos >= sec.offsetTop) 
+  spySections.forEach(function(sec) { if (scrollPos >= sec.offsetTop)})}
+
+  
